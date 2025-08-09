@@ -1,4 +1,4 @@
-# EventFlow
+# EventManagement
 
 A scalable and maintainable **.NET 8** application for managing users, roles, events, and registrations.  
 Built with **Clean Architecture** principles to ensure separation of concerns, testability, and maintainability.
