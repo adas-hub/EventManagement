@@ -1,0 +1,104 @@
+﻿################################################################################
+# Visual Studio / .NET .gitignore
+# Covers common build outputs, user-specific settings, cache folders, etc.
+################################################################################
+
+# Ignore user-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Ignore NuGet packages
+*.nupkg
+# Ignore package restore folders
+**/packages/*
+!**/packages/build/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Ignore dotnet CLI output
+artifacts/
+*.deps.json
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
+
+# Ignore Visual Studio build files
+*.dbmdl
+*.bak
+*.backup
+*.ldf
+*.mdf
+
+# Ignore VS caches/options
+.vs/
+.vscode/
+*.vscode/*
+.vscode/settings.json
+
+# Ignore test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+coverage.cobertura.xml
+coverage.opencover.xml
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.tmp_proj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*_h.h
+*.db
+*.opendb
+*.VC.db
+
+# Ignore ReSharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore Rider files
+.idea/
+
+# Ignore other IDE artifacts
+*.ncrunch*
+.*crunch*.local.xml
+*.sdf
+*.cachefile
+*.aps
+
+# Ignore Publish output
+publish/
+dist/
+out/
+Generated_Code/
+
+# Ignore static analysis results
+*.sarif
+
+# Ignore development environment configs (keep production configs)
+**/appsettings.*.json
+!**/appsettings.json
+
+# Keep only your development config out of repo
+src/EventManagement.Api/appsettings.Development.json
+/.config
